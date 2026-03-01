@@ -4,7 +4,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 # Dataset path
-dataset_path = "dataset"
+dataset_path = "dataset" #Add dataset to folder
 
 # Data preprocessing
 datagen = ImageDataGenerator(
@@ -55,5 +55,6 @@ model.fit(train_data, validation_data=val_data, epochs=20)
 
 # Save model
 model.save("mask_detector.h5")
+
 
 print("Model trained and saved successfully!")
