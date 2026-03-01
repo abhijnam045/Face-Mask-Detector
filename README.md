@@ -1,7 +1,9 @@
 Face-Mask-Detector
+
 Real-time face mask detection system using CNN and OpenCV for binary image classification.
 
 Features
+
 - Detects whether a person is wearing a mask
 - Real-time detection using webcam
 - CNN-based image classification
